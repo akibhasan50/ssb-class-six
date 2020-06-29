@@ -1,0 +1,154 @@
+header {
+    background-image: url(img/laptop-1209008_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 80vh;
+
+    background-color: #818683f5;
+    ;
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.sub-brand {
+    display: block;
+    font-size: 1.3rem;
+    color: rgb(253, 253, 253);
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+ul li a {
+
+    border-bottom: 2px solid transparent;
+    transition: .3s ease-in;
+
+}
+
+ul li a:hover {
+    border-bottom: 2px solid rgb(150, 4, 4);
+
+
+}
+
+
+.invcoma {
+    font-size: 250px;
+
+}
+
+.quote {
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+
+    color: rgb(119, 116, 116);
+}
+
+.quote span {
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: 3px;
+    color: #a4a4a5;
+}
+
+.service-all img {
+    border-radius: 50%;
+}
+
+.service-all p {
+    color: rgb(119, 116, 116);
+    line-height: 25px;
+}
+
+.service-all h3 {
+    text-transform: capitalize;
+}
+
+.git {
+    font-size: 70px;
+}
+
+.partner h1 {
+    text-transform: uppercase;
+}
+
+.line {
+    height: 2px;
+    background: red;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.feature p {
+    color: rgb(194, 188, 188);
+}
+
+.im-1 {
+    height: 250px;
+}
+
+.im-2 {
+    height: 230px;
+}
+
+
+
+@media (max-width: 991px) {
+    .container-md {
+        max-width: 798px;
+    }
+}
+
+@media(max-width:575px) {
+    .navbar-brand {
+        font-size: 25px;
+        letter-spacing: 7px;
+
+    }
+
+    .sub-brand {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:365px) {
+    .expl {
+        font-size: 1.3rem;
+    }
+
+    .partner h1 {
+        font-size: 1.5rem;
+    }
+
+    .quote {
+
+        font-size: 15px;
+
+    }
+
+    .quote span {
+
+        font-size: 20px;
+
+    }
+}
